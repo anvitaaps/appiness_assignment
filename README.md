@@ -1,3 +1,12 @@
+Steps to run application: 
+1. git clone https://github.com/anvitaaps/appiness_assignment.git
+2. Go to project directory
+3. npm install
+4. ng serve
+5. Open localhost:4200 on the browser
+
+
+
 # AppinessAssignment
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
@@ -25,3 +34,6 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+

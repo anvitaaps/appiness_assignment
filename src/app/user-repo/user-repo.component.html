@@ -1,0 +1,32 @@
+<div class="container">
+    <!-- Toolbar -->
+    <div class="toolbar" role="banner">
+        <i class="material-icons tag-icon">
+            emoji_emotions
+            </i>
+      <h4>Appiness Assignment </h4>
+      
+    </div>
+    <div class="back">
+        <span style="color: gray; cursor: pointer;" (click)="back()">< Back</span>
+    </div>
+    <mat-card>
+        <div align="center">
+            <img mat-card-avatar [src]="data[0].owner.avatar_url" style="width: 100px; height: 100px" class="example-header-image">
+            <h1>{{ current_username }}</h1>
+        </div>
+        <div>
+            <h2>Repositories</h2>
+            <mat-list>
+                <mat-list-item *ngFor="let item of data">
+                    <mat-icon mat-list-icon>emoji_emotions</mat-icon>
+                    <h4 mat-line><a [href]="item.html_url" target="_blank">{{item.html_url}}</a></h4>
+                    <p mat-line> {{item.updated_at | date}} </p>
+                </mat-list-item>
+            </mat-list>
+        </div>
+    </mat-card>
+    
+
+   
+</div>
